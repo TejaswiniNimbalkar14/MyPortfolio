@@ -292,6 +292,8 @@ body
     background-color: cornflowerblue;
     color: white;
 }
+
+/*Education Section*/
 #education{
    padding-top: 40px;
    padding: 20px;
@@ -355,19 +357,47 @@ body
     margin: 0;
     padding-bottom: 50px;
 }
-/* .fa
-{
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-}
-.fa-facebook
-{
-    content: "\f09a";
-}
-::before, ::after
-{
-    box-sizing: border-box;
-} */
 
+/*Skills Section*/
+#skills{
+    padding-top: 40px;
+    padding: 10px;
+    align-items: center;
+    background-color: pink;
+}
+.skill-column{
+    align-items: center !important;
+    text-align: center !important;
+    display: block;
+    margin-bottom: 20px;
+}
+.column-title{
+    align-items: center;
+    padding: 20px;
+    color: red;
+}
+.skills-list{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+  }
+  .skills-list .list-item{
+  display: inline;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+  }
+  .skills-li-icon{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding-top: 10px;
+  }
+  .list-item-text{
+    /* padding: 10px; */
+    color: black;
+    margin-right: 5px;
+    vertical-align: -webkit-baseline-middle;
+  }
